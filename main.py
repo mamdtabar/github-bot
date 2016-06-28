@@ -6,7 +6,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-bot = telebot.TeleBot('YOUR TOKEN')
+bot = telebot.TeleBot('237420337:AAGBYvteY4eUnk-o4w8z_SjeJbpepuaWcsI')
 
 @bot.message_handler(commands=['start', 'help'])
 def m(m):
